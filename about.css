@@ -1,0 +1,38 @@
+.about-page{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    color: white;
+    background-color: #e71d73;
+}
+.about-containers{
+    display: flex;
+    flex-direction: row;
+}
+.about-section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    width: 50%;
+    min-height: 100vh;
+}
+.title{
+    margin: 2rem 0rem;
+    font-size: 3rem;
+}
+.content{
+    width: 95%;
+    font-size: 1.4rem;
+}
+.bike-logo{
+    margin: 1rem 0rem;
+    height: 8rem;
+}
+.about-section2{
+    width: 50%;
+    background-image: url("./Images/fabio-comparelli-uq2E2V4LhCY-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
