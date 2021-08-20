@@ -110,7 +110,7 @@ span{
     }
 
     .adress{
-    margin: 0rem 0rem 2rem;
+    margin: 0rem 0rem 0rem;
     }
     strong{
     font-size: 1.6rem;
@@ -123,11 +123,29 @@ span{
     display: flex;
     flex-direction: row;
     width: 40%;
-    margin: 3rem 0rem 0rem;
+    margin: 4rem 0rem 0rem;
 }
 
     .icons{
     font-size: 4rem;
+    }
+
+}
+
+@media (max-width: 640px) {
+
+
+    .adress{
+    margin: 0rem 0rem 2rem;
+    }
+    strong{
+    font-size: 1.4rem;
+    }
+    span{
+    font-size: 1rem;
+    }
+    .icons{
+    font-size: 3rem;
     }
 
 }

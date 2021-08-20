@@ -69,6 +69,25 @@
     }
     .logotype{
     height: 25rem;
+    margin-left: 12rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .logotype{
     margin-left: 4rem;
+    }
+}
+
+@media (max-width: 640px) {
+
+    .hamburger{
+        width: 4rem;
+    }
+    .line{
+        height: .5rem;
+    }
+    .logotype{
+        margin-left: 1rem;
     }
 }
