@@ -78,3 +78,7 @@ span{
 .icons{
     font-size: 5.5rem;
 }
+
+@media (max-width: 1024px) {
+    
+}

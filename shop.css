@@ -46,3 +46,25 @@ button{
     background-color: #e71d73;
     border: .4rem solid white;
 }
+
+@media (max-width: 1024px) {
+    
+    .shop-header{
+    min-height: 10vh;
+    }
+    .product-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+    .product-image{
+        height: 15rem;
+    }
+    .product-title{
+    font-size: 1.6rem;
+    }
+    .price{
+    font-size: 1.4rem;
+    margin: .5rem 0rem;
+    }
+}

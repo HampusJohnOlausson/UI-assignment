@@ -37,3 +37,29 @@
     background-repeat: no-repeat;
     min-height: 100vh;
 }
+
+@media (max-width: 1024px) {
+    
+    .about-containers{
+    display: flex;
+    flex-direction: column;
+    }
+    .about-section1{
+        width: 100%;
+        min-height: 50vh;
+    }
+    .title{
+        font-size: 4rem;
+        margin: 2rem 0rem;
+    }
+    .about-section2{
+        width: 100%;
+        background-image: url("./Images/cameron-venti-I1EWTM5mFEM-unsplash.jpg");
+        background-size: cover;
+        background-position: center;
+         min-height: 50vh;
+    }
+    .bike-logo{
+    display: none;
+    }
+}
