@@ -5,6 +5,7 @@
     flex-direction: column;
     background-image: url("./Images/Mountain.jpg");
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 .navbar{
@@ -14,14 +15,14 @@
     align-items: center;
 }
 .nav-list{
-    width: 60%;
+    width: 55%;
     justify-content: space-around;
     display: flex;
     flex-direction: row;
     list-style-type: none;
 }
 .Item{
-    font-size: 1.6rem;
+    font-size: 2.2rem;
     font-weight: bold;
     color: #e71d73;
 }
@@ -32,6 +33,6 @@
     min-height: 50vh;
 }
 .logotype{
-    height: 25rem;
-    margin-left: 10rem;
+    height: 33rem;
+    margin-left: 20rem;
 }

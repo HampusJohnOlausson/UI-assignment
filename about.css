@@ -13,21 +13,22 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2rem;
+    padding: 4rem;
     width: 50%;
     min-height: 100vh;
 }
 .title{
-    margin: 2rem 0rem;
-    font-size: 3rem;
+    margin: 3.5rem 0rem;
+    font-size: 4.7rem;
 }
 .content{
     width: 95%;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
+    font-weight: bold;
 }
 .bike-logo{
-    margin: 1rem 0rem;
-    height: 8rem;
+    margin: 2rem 0rem;
+    height: 12rem;
 }
 .about-section2{
     width: 50%;
